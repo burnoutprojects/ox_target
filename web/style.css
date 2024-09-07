@@ -6,7 +6,7 @@
 }
 
 body {
-  visibility: hidden;
+  visibility: visible;
   user-select: none;
   white-space: nowrap;
   margin: 0;
@@ -28,7 +28,11 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 22pt;
-  fill: black;
+  fill: #5bb894;
+}
+
+#eyeSvg {
+  height: 2rem;
 }
 
 .eye-hover {
